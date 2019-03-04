@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="title">Crystal Collector!</p>
+        <!-- <p class="You_win_lose"></p> -->
+    </header>
+
+    <div class="instuctions">
+            <p class="inst_txt">You have been given a random number at the start of the game.</p>
+            <p class="inst_txt">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score.</p>
+            <p class="inst_txt">You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+            <p class="inst_txt">The value of each crystal is hidden from you until you click it.</p>
+            <p class="inst_txt">Each time the game starts, and after each win or loss the game will change the values of the crystal.</p>
+
+
+
+    </div>
+
+<div class="display">
+    <div class="num_to_match">
+            <div class="number_a">_the number_</div>
+
+    </div>
+
+    <div class="W_L">
+        <div class="You_win_lose"></div>
+        <div class="W_text">Wins:</div>
+        <div class="L_text">Losses:</div>
+
+    </div>
+
+</div>
+
+    <div class="crystal">
+            <div class="crystal_i">
+                    <img class="clicked"  id="crystal_1img" src="" alt="pic_1">
+            </div>
+            <div class="crystal_i">
+                    <img class="clicked" id="crystal_2img" src="" alt="pic_2">
+            </div>
+            <div class="crystal_i">
+                    <img class="clicked" id="crystal_3img" src="" alt="pic_3">
+            </div>
+            <div class="crystal_i">
+                    <img class="clicked" id="crystal_4img" src="" alt="pic_4">
+            </div>
+        
+    </div>
+    <div class="your_score">
+            <div class="your_score_text">Your Score Is</div>
+        
+    </div>
+    <div class="your_score_number">
+            <div class="your_score_number_text">0</div>
+        </div>
+    
+</body>
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</html>
